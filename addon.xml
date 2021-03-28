@@ -17,11 +17,6 @@
 	<website>www.hyperion-project.org</website>
 	<forum>forum.hyperion-project.org</forum>
 	<source>https://github.com/hyperion-project/script.service.hyperion</source>
-  <news>
-  1.0.4
-  - Python 3 conversion for Kodi 19
-  - minor cleanups and corrections
-  </news>
 	<license>MIT</license>
   </extension>
 </addon>
