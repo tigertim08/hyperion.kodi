@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.service.hyperion" name="Hyperion Ambilight" version="1.0.4" provider-name="hyperion-project">
+<addon id="script.service.hyperion" name="Hyperion Ambilight" version="1.0.4" provider-name="hyperion-project, tigertim08">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.protobuf" version="2.5.0"/>
@@ -17,6 +17,11 @@
 	<website>www.hyperion-project.org</website>
 	<forum>forum.hyperion-project.org</forum>
 	<source>https://github.com/hyperion-project/script.service.hyperion</source>
+  <news>
+  1.0.4
+  - Python 3 conversion for Kodi 19
+  - minor cleanups and corrections
+  </news>
 	<license>MIT</license>
   </extension>
 </addon>
