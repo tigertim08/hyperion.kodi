@@ -1,3 +1,5 @@
+1.0.4
+- umstellung auf python 3
 1.0.3
 - remove protobuf library
 1.0.2
@@ -8,4 +10,3 @@
 - Kodi V17 fix thanks to @bimsarck and @iLLiac4
 1.0.0
 - initial addon release
-
