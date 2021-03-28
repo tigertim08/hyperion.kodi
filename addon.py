@@ -1,6 +1,6 @@
 '''
     Kodi video capturer for Hyperion
-	
+
 	Copyright (c) 2013-1016 Hyperion Team
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -31,7 +31,7 @@ import os
 __addon__      = xbmcaddon.Addon()
 __cwd__        = __addon__.getAddonInfo('path')
 sys.path.append(xbmc.translatePath(os.path.join(__cwd__, 'resources', 'lib')))
-		
+
 from settings import Settings
 from state import DisconnectedState
 from hyperion.Hyperion import Hyperion
@@ -42,19 +42,19 @@ if  __name__ == "__main__":
 
 	# initialize the state
 	state = DisconnectedState(settings)
-	
+
 	# start looping
 	while not settings.abort:
 		# execute the current state
 		next_state = state.execute()
-		
+
 		# delete the old state if necessary
 		if state != next_state:
 			del state
-			
+
 		# advance to the next state
 		state = next_state
-		
+
 	# clean up the state closing the connection if present
 	del state
 	del settings
